@@ -1,0 +1,119 @@
+body {background-color: #FAF0E6;}
+a{
+    text-decoration: none;
+    color: #990000;
+}
+:root {
+    --text1-color: white; 
+    --text2-color:white;
+}
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+    margin:auto auto;
+    transition: translate(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height:700px; width:650px;
+    box-shadow: 10px 10px 10px #999999;
+}
+.container1 {
+    background-color:#990000;
+    justify-items: center;
+    margin:0px; border:0px;
+    width:40%;
+    font-size:small;
+}
+img{
+    
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.image {
+    padding: 10px 47.5px;
+}
+.a1 {
+    line-height: 1;
+    border: 2px solid var(--text1-color);
+    padding: 1px 8px 1px 8px;
+    margin: 8px 8px 8px 8px;
+}
+.a2 {
+    color: #FFFF66;
+    font-weight: bold;
+}
+.progress-wrap {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 16px; 
+}
+.progress {
+    width: 50%;
+    height:10px;
+    background-color: white;
+}
+.a {
+    color:var(--text1-color);
+}
+.range {
+    accent-color:#E33539;
+    
+}
+
+
+
+.container2 {
+    background-color: #FFF0F5;
+    justify-items: center;
+    margin:0px; border:0px; padding:0px;
+    width:90%;
+    font-size: smaller;
+}  
+
+.b1 {
+    border: 1px groove var(--text1-color) ;
+    border-top-color:gray;
+    padding: 5px 5px 15px 5px;
+}
+.tieude {
+    
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+    padding-top: 40px;
+    letter-spacing: .1em;
+    text-shadow: 1.5px 1.5px 1.5px #EEC900;
+    line-height: 1.1;
+    border: 1px ;
+    padding: 0px 15px 0px 15px;
+    font-size: 96%;
+}
+.b2 {
+    font-size: 110%;
+    text-align: center;
+    letter-spacing: .1em;
+    text-shadow: 1.5px 1.5px 1.5px #FA8072 ;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #000080;
+}
+.b3 {
+    border: 1px ;
+}
+.icon {
+    color: white;
+}
+.text {
+    font-size: 14.5px;
+   text-align: center;
+    color: white;
+}
+
+
